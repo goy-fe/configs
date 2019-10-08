@@ -1,0 +1,14 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "command": {
+    "version": {
+      "allowBranch": "master",
+      "conventionalCommits": false,
+      "exact": true,
+      "ignoreChanges": ["**/*.md"],
+      "message": "chore: publish"
+    }
+  }
+}
