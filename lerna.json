@@ -3,11 +3,11 @@
   "useWorkspaces": true,
   "version": "independent",
   "command": {
-    "version": {
+    "publish": {
       "allowBranch": "master",
-      "conventionalCommits": false,
+      "conventionalCommits": true,
       "exact": true,
-      "ignoreChanges": ["**/*.md"],
+      "ignoreChanges": ["ignored-file", "**/__tests__/**", "**/*.md"],
       "message": "chore: publish"
     }
   }

@@ -12,7 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goy-fe/configs.git"
+    "url": "git+https://github.com/goy-fe/configs.git",
+    "directory": "packages/renovate-config-goy"
   },
   "license": "MIT",
   "author": "ntnyq <ntnyq13@gmail.com>",
