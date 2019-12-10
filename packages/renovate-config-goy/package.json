@@ -23,7 +23,7 @@
     "validate": "renovate-config-validator"
   },
   "devDependencies": {
-    "renovate": "^19.58.5"
+    "renovate": "^19.76.7"
   },
   "renovate-config": {
     "default": {
