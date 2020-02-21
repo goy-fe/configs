@@ -23,16 +23,13 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "*.{json,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
     "package.json": [
-      "sort-package-json",
-      "git add"
+      "sort-package-json"
     ]
   },
   "prettier": {
@@ -52,11 +49,11 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@commitlint/config-lerna-scopes": "^8.3.4",
     "eslint": "^6.8.0",
-    "eslint-config-goy": "^0.1.1",
-    "husky": "^4.2.1",
+    "eslint-config-goy": "^0.2.0",
+    "husky": "^4.2.3",
     "lerna": "^3.20.2",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
-    "sort-package-json": "^1.39.1"
+    "sort-package-json": "^1.40.0"
   }
 }
