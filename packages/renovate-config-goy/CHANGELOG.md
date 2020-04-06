@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/goy-fe/configs/compare/renovate-config-goy@0.2.0...renovate-config-goy@0.2.1) (2020-04-06)
+
+### Bug Fixes
+
+- security alert ([8d77972](https://github.com/goy-fe/configs/commit/8d779726df4a7fdf3a0b77e23b22af6e40340b27))
+
 # [0.2.0](https://github.com/goy-fe/configs/compare/renovate-config-goy@0.1.2...renovate-config-goy@0.2.0) (2020-02-04)
 
 ### Features
