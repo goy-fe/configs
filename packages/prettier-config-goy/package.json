@@ -1,0 +1,22 @@
+{
+  "name": "prettier-config-goy",
+  "version": "1.0.0",
+  "description": "Prettier config for GoyFE team",
+  "keywords": [
+    "prettier-config"
+  ],
+  "homepage": "https://github.com/goy-fe/configs#readme",
+  "bugs": {
+    "url": "https://github.com/goy-fe/configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goy-fe/configs.git"
+  },
+  "license": "ISC",
+  "author": "ntnyq <ntnyq@foxmail.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ]
+}
