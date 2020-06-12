@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/goy-fe/configs/compare/renovate-config-goy@0.2.2...renovate-config-goy@0.2.3) (2020-06-12)
+
+**Note:** Version bump only for package renovate-config-goy
+
 ## [0.2.2](https://github.com/goy-fe/configs/compare/renovate-config-goy@0.2.1...renovate-config-goy@0.2.2) (2020-05-05)
 
 **Note:** Version bump only for package renovate-config-goy

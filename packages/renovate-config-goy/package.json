@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-goy",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Renovate config for GoyFE team",
   "keywords": [
     "goyfe",
