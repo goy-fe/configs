@@ -48,12 +48,12 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@commitlint/config-lerna-scopes": "^8.3.4",
-    "eslint": "^7.0.0",
+    "eslint": "^7.2.0",
     "eslint-config-goy": "^0.2.0",
     "husky": "^4.2.5",
-    "lerna": "^3.21.0",
-    "lint-staged": "^10.2.4",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.2.9",
     "prettier": "^2.0.5",
-    "sort-package-json": "^1.42.2"
+    "sort-package-json": "^1.44.0"
   }
 }
