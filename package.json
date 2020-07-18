@@ -22,38 +22,26 @@
     ]
   },
   "lint-staged": {
-    "*.{js,jsx}": [
-      "eslint --fix"
-    ],
-    "*.{json,md}": [
-      "prettier --write"
-    ],
-    "package.json": [
-      "sort-package-json"
-    ]
+    "*.{js,jsx}": "eslint --fix",
+    "*.{json,md}": "prettier --write",
+    "package.json": "sort-package-json"
   },
-  "prettier": {
-    "endOfLine": "lf",
-    "semi": false,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "tarilingComma": "es5",
-    "useTabs": false
-  },
+  "prettier": "prettier-config-goy",
   "eslintConfig": {
     "extends": "goy",
     "root": true
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@commitlint/config-lerna-scopes": "^8.3.4",
-    "eslint": "^7.2.0",
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/config-lerna-scopes": "^9.1.1",
+    "eslint": "^7.4.0",
     "eslint-config-goy": "^0.2.0",
     "husky": "^4.2.5",
     "lerna": "^3.22.1",
-    "lint-staged": "^10.2.9",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
+    "prettier-config-goy": "^1.1.0",
     "sort-package-json": "^1.44.0"
   }
 }
