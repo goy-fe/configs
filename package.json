@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "release": "lerna version"
+    "release": "lerna version",
+    "test": "lerna run test"
   },
   "husky": {
     "hooks": {
@@ -32,15 +33,15 @@
     "root": true
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.1.1",
-    "@commitlint/config-conventional": "^9.1.1",
-    "@commitlint/config-lerna-scopes": "^9.1.1",
-    "eslint": "^7.4.0",
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "@commitlint/config-lerna-scopes": "^9.1.2",
+    "eslint": "^7.7.0",
     "eslint-config-goy": "^0.2.0",
     "husky": "^4.2.5",
     "lerna": "^3.22.1",
-    "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5",
+    "lint-staged": "^10.2.13",
+    "prettier": "^2.1.0",
     "prettier-config-goy": "^1.1.0",
     "sort-package-json": "^1.44.0"
   }
